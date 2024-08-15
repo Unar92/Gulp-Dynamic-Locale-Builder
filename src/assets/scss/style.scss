@@ -1,0 +1,23 @@
+
+
+
+// plugins
+@import 'plugins/intlTelInput.css';
+
+// main url
+// $domain-link: '';
+:root {
+    --vh: 1vh;
+}
+
+html {
+    font-size: 0.8333333333vw;
+
+    @media (max-width: 1200px) {
+        font-size: 1.3333334vw;
+    }
+
+    @media (max-width: 767px) {
+        font-size: 4.102564103vw;
+    }
+}

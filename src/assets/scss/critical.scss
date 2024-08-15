@@ -1,0 +1,58 @@
+@import './fonts.scss';
+@import './normalize.scss';
+@import 'colors.scss';
+
+
+html,
+body {
+  font-family: 'Alexandria', sans-serif;
+}
+
+.container {
+  // width: 1920px;
+  max-width: 100%;
+  // margin-inline: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 4.167vw;
+  padding-right: 4.167vw;
+
+  @media screen and (max-width: 767px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+main {
+  min-height: 100svh;
+}
+
+body {
+  // overflow-x: hidden;
+  width: 100%;
+  position: relative;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+// html,
+// body {
+//   overflow-x: hidden;
+// }
+
+body {
+ 
+    .c-header {
+      height: 0 !important;
+      &.is--sticky {
+        height: 0 !important;
+      }
+    }
+  
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,45 @@
+{
+  "name": "contive ai",
+  "version": "1.0.0",
+  "description": "contive ai",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp default"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Unar92/Gulp-Dynamic-Locale-Builder.git"
+  },
+  "keywords": [
+    "contive ai"
+  ],
+  "author": "Imran Bughio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Unar92/Gulp-Dynamic-Locale-Builder/issues"
+  },
+  "homepage": "https://github.com/Unar92/Gulp-Dynamic-Locale-Builder#readme",
+  "devDependencies": {
+    "del": "^4.1.1",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.7.0",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-data": "^1.3.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-jsmin": "^0.1.5",
+    "gulp-nunjucks-render": "^2.2.3",
+    "gulp-rename": "^2.0.0",
+    "gulp-replace": "^1.1.4",
+    "gulp-rtlcss": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "sass": "^1.69.3"
+  },
+  "dependencies": {
+    "gulp-order": "^1.2.0",
+    "gulp-tap": "^2.0.0",
+    "merge-stream": "^2.0.0"
+  }
+}
